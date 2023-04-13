@@ -1,8 +1,7 @@
 name: Tibco Workflow
 
 on:
-  schedule: 
-     - cron:  "* * * * *"
+
      
   pull_request:
     branches: [ main ]
