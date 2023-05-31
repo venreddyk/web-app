@@ -24,5 +24,3 @@ jobs:
           
       - name: Build with maven
         run: mvn clean install
-		
-#test
