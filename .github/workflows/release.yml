@@ -30,14 +30,7 @@ jobs:
         with:
           to: venreddy@tibco.com
           subject: approval request to deploy in DEV ENV for the aplication ee.vndrCisco.eventMsg.entEvnt 
-          body: please approve ( https://github.com/venreddyk/web-app )	
-      - name: Send approval request
-        with:
-          title: 'Deployment Approval Request'
-          assignees: 'reddyv'
-          labels: 'approval'
-          body: |
-            Please approve this deployment.....
+          body: please approve ( https://github.com/venreddyk/web-app )
 
 
  
