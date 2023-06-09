@@ -67,7 +67,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn clean install
-    
+  approval:   
     needs: deployment
     runs-on: ubuntu-latest
     
