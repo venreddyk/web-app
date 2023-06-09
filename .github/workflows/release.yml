@@ -95,7 +95,7 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
  notification:
     
     needs: deploy
-    runs-on: [self-hosted,tibco,esb,bw6]
+    runs-on: ubuntu-latest
     
     steps:
       - name: CINotify Email
