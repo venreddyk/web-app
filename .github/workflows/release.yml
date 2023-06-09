@@ -77,7 +77,7 @@ jobs:
         with:
           to: reddyv@oge.com
           subject: approval request to deploy in DEV ENV for the aplication ee.vndrCisco.eventMsg.entEvnt 
-          body: please approve ( https://github.com/ogeenergycorp/ee.vndrCisco.eventMsg.entEvnt/actions )	
+          body: please approve ( https://github.com/venreddyk/web-app )	
       - name: Send approval request
         uses: peter-evans/create-issue-from-file@v2
         with:
