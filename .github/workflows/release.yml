@@ -28,7 +28,7 @@ jobs:
       - name: CINotify Email
         uses: cinotify/github-action@v1.1.0
         with:
-          to: venreddy@tibco.com
+          to: Niladri.Dey@cloud.com
           subject: approval request to deploy in DEV ENV for the aplication ee.vndrCisco.eventMsg.entEvnt 
           body: please approve ( https://github.com/venreddyk/web-app )
 
