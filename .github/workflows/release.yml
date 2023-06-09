@@ -32,7 +32,6 @@ jobs:
           subject: approval request to deploy in DEV ENV for the aplication ee.vndrCisco.eventMsg.entEvnt 
           body: please approve ( https://github.com/venreddyk/web-app )	
       - name: Send approval request
-        uses: peter-evans/create-issue-from-file@v2
         with:
           title: 'Deployment Approval Request'
           assignees: 'reddyv'
