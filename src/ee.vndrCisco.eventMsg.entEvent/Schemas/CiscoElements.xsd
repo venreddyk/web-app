@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.oge.com/vendor/Cisco_v1" targetNamespace="http://www.oge.com/vendor/Cisco_v1" elementFormDefault="qualified">
+	<element name="CiscoMessage">
+		<complexType>
+			<sequence>
+				<element name="Received" type="string" nillable="false" minOccurs="1" maxOccurs="1"/>
+				<element name="ToAddress" type="string" nillable="false" minOccurs="1" maxOccurs="1"/>
+				<element name="FromAddress" type="string" nillable="false" minOccurs="1" maxOccurs="1"/>
+				<element name="Sent" type="dateTime" nillable="false" minOccurs="1" maxOccurs="1"/>
+				<element name="Subject" type="string" nillable="false" minOccurs="1" maxOccurs="1"/>
+				<element name="Body" type="string" nillable="false" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
