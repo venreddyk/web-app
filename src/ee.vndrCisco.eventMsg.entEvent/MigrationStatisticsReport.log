@@ -1,0 +1,19 @@
+2023-04-04 17:48:55,584 [Worker-35: Migrate] INFO  com.tibco.bw.migration.stats - Migrating Business Works 5.x projects to version 6 using arguments:: 
+[Target Project Directory: y:\Tibco\satyas\BW5to6FinalMCode/vndr_cisco-eventMsg-ent_evnt-org ]
+[Source Project Directory: Y:\Tibco\satyas\vndr_cisco-eventMsg-ent_evnt-org ]
+[Project Name: vndr_cisco-eventMsg-ent_evnt-org ]
+
+
+------------------ Migration Statistics ----------------
+
+Project Migration Time [Millisecond]: 23750
+
+Process Migration Time [Millisecond]
+1. Y:/Tibco/satyas/vndr_cisco-eventMsg-ent_evnt-org/Processes/SubProcesses/MessageProcessor.process: 9375
+2. Y:/Tibco/satyas/vndr_cisco-eventMsg-ent_evnt-org/Processes/ComponentProcesses/ReceiveMessage.process: 3703
+
+Artifacts Migrated [Count]
+1. Process(& Service Agent) Migrated:2
+2. WSDL Migrated:0
+3. Schema Migrated:2
+4. XSLT Migrated:0

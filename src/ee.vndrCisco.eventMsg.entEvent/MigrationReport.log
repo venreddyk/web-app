@@ -1,0 +1,16 @@
+2023-04-04 17:48:31,834 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Generating BW 6 application for BW5 project/projects at Y:\Tibco\satyas\vndr_cisco-eventMsg-ent_evnt-org
+2023-04-04 17:48:33,881 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Global Variables..
+2023-04-04 17:48:34,162 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Shared Resources..
+2023-04-04 17:48:34,256 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating XML Schema resource :Y:/Tibco/satyas/vndr_cisco-eventMsg-ent_evnt-org/Schemas/CiscoElements.xsd
+2023-04-04 17:48:34,271 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating XML Schema resource :Y:/Tibco/satyas/vndr_cisco-eventMsg-ent_evnt-org/Schemas/RefByProcess/MessageProcessor.xsd
+2023-04-04 17:48:35,271 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating Processes..
+2023-04-04 17:48:35,271 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Process Migration Order is => 
+2023-04-04 17:48:35,271 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Processes/SubProcesses/MessageProcessor.process
+2023-04-04 17:48:35,271 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Processes/ComponentProcesses/ReceiveMessage.process
+2023-04-04 17:48:35,537 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating process - Processes/SubProcesses/MessageProcessor.process
+2023-04-04 17:48:35,537 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - The process "SubProcesses.MessageProcessor" migration started
+2023-04-04 17:48:42,756 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - The process "SubProcesses.MessageProcessor" migration done.
+2023-04-04 17:48:45,115 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating process - Processes/ComponentProcesses/ReceiveMessage.process
+2023-04-04 17:48:45,131 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - The process "ComponentProcesses.ReceiveMessage" migration started
+2023-04-04 17:48:45,193 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - Migrating User name
+2023-04-04 17:48:48,240 [Worker-35: Migrate] INFO  com.tibco.bw.migration.logger - The process "ComponentProcesses.ReceiveMessage" migration done.

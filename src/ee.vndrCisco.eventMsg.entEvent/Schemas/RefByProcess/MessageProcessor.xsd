@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	 xmlns="http://www.oge.com/esb/enterpriseevents/vndr_cisco_eventmsg_messageprocessor_v1.0"
+	 targetNamespace="http://www.oge.com/esb/enterpriseevents/vndr_cisco_eventmsg_messageprocessor_v1.0"
+	 elementFormDefault="qualified"
+	 attributeFormDefault="unqualified">
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Alarm" type="xs:string" minOccurs="0"/>
+				<xs:element name="Alarm-Status" type="xs:string" minOccurs="0"/>
+				<xs:element name="Voice-Message" type="xs:string" minOccurs="0"/>
+				<xs:element name="Voice-Count" type="xs:string" minOccurs="0"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="NameValuePairroot">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="NameValue" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="Value" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <enterpriseArchive>
+        <sharedArchive name="Shared Archive">
+            <resourceType>shared.archive.resource</resourceType>
+            <authorProperty>kavutups</authorProperty>
+        </sharedArchive>
+        <processArchive name="vndr_cisco-eventMsg-ent_evnt">
+            <resourceType>process.archive.resource</resourceType>
+            <authorProperty>(c) 2012 OG&amp;E, Inc.  All rights reserved.</authorProperty>
+            <processProperty>/Processes/ComponentProcesses/ReceiveMessage.process</processProperty>
+        </processArchive>
+        <versionProperty>%%Adapter/General/Version%%</versionProperty>
+        <authorProperty>(c) 2012 OG&amp;E, Inc.  All rights reserved.</authorProperty>
+        <addServiceSettableGvars>true</addServiceSettableGvars>
+        <name>vndr_cisco-eventMsg-ent_evnt</name>
+        <designer>
+            <lockedProperties/>
+            <fixedChildren/>
+            <resourceDescriptions/>
+        </designer>
+        <fileLocationProperty>C:\TEMP\vndr_cisco-eventMsg-ent_evnt.ear</fileLocationProperty>
+    </enterpriseArchive>
+</Repository:repository>

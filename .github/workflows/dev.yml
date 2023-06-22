@@ -17,4 +17,4 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn -B -f src/ee.vndrCisco.eventMsg.entEvent.application.parent/pom.xml clean package

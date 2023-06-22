@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:property="http://ns.tibco.com/bw/property" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_0ZlMgNLiEe27lasL7BQUyA" targetNamespace="http://tns.tibco.com/bw/composite/ee.vndrCisco.eventMsg.entEvent" name="ee.vndrCisco.eventMsg.entEvent" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_0ZlMgdLiEe27lasL7BQUyA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMgtLiEe27lasL7BQUyA" name="BW.APPNODE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMg9LiEe27lasL7BQUyA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMhNLiEe27lasL7BQUyA" name="BW.HOST.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMhdLiEe27lasL7BQUyA" name="BW.DOMAIN.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMhtLiEe27lasL7BQUyA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMh9LiEe27lasL7BQUyA" name="BW.APPSPACE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMiNLiEe27lasL7BQUyA" name="BW.MODULE.VERSION" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0ZlMidLiEe27lasL7BQUyA" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_0pOLANLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/EMSTopics/EMSTopicName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_07GlMNLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventClassCD" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1ABhcNLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventGroupCD" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1FPYoNLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventReasonCD" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1KAj4NLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventSubtypeCD" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1OeNINLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventExternalEventCD" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_1R57oNLiEe27lasL7BQUyA" name="/Adapter/Subprocesses/MessageProcessor/EventExternalSource" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_NlqFANREEe2GM9I3KeAKWA" name="/Adapter/ComponentProcesses/ReceiveMessage/CLE/TechnicalTimeout" type="XMLSchema:string" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2E3poNLiEe27lasL7BQUyA" name="/Connections/SMTP/PollingInterval" type="XMLSchema:int" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2E3podLiEe27lasL7BQUyA" name="/Connections/SMTP/HostName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2E3potLiEe27lasL7BQUyA" name="/Connections/SMTP/UserName" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2E3po9LiEe27lasL7BQUyA" name="/Connections/SMTP/Password" type="property:password" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_2eylgNLiEe27lasL7BQUyA" name="/Connections/SMTP/FromAddress" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_2iEjANLiEe27lasL7BQUyA" name="ComponentProcesses.ReceiveMessageComponent" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_2iEjAdLiEe27lasL7BQUyA" processName="ComponentProcesses.ReceiveMessage"/>
+  </sca:component>
+</sca:composite>

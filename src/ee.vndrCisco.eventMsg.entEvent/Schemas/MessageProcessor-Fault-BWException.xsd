@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:tns="http://xmlns.example.com/1307330442231/Processes/SubProcesses/MessageProcessor/Generate-Error-Fault-BWException.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://xmlns.example.com/1307330442231/Processes/SubProcesses/MessageProcessor/Generate-Error-Fault-BWException.xsd">
+      
+  <xs:element name="BWException" type="xs:anyType"/>
+  
+</xs:schema>
