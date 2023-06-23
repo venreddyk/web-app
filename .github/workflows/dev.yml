@@ -14,3 +14,6 @@ jobs:
 
       - name: Build with Maven
         run: mvn -B -f src/ee.vndrCisco.eventMsg.entEvent.application.parent/pom.xml clean package
+
+
+#test
