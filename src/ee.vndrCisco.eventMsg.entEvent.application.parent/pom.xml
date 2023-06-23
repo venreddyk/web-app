@@ -9,6 +9,11 @@
 
 	
   <modules>
+    <module>../pp.customXpathFunctions</module>
+    <module>../sm.baseSchemas</module>
+    <module>../sm.cleClient</module>
+    <module>../sm.jdbcHana</module>
+    <module>../sm.jmsEsb</module>
     <module>../ee.vndrCisco.eventMsg.entEvent</module>
     <module>../ee.vndrCisco.eventMsg.entEvent.application</module>
   </modules>
