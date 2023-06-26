@@ -1,56 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.tibco.bw</groupId>
-  <artifactId>ee.vndrCisco.eventMsg.entEvent.application.parent</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-
-	
-  <modules>
-    <module>../ee.vndrCisco.eventMsg.entEvent</module>
-    <module>../ee.vndrCisco.eventMsg.entEvent.application</module>
-  </modules>
-  <properties>
-	<deployToAdmin>true</deployToAdmin>
-	<agentHost>167.161.17.95</agentHost>
-	<agentPort>18300</agentPort>
-	<domain>d_EnterpriseEvents</domain>
-	<appSpace>as1_vndrCisco_lb_b</appSpace>
-	<appNode>an1_as1_vndrCisco_lb_b</appNode>
-        <httpPort>18300</httpPort>
-	<redeploy>true</redeploy>
-	<profile>Dev.substvar</profile>
-  </properties>
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <version>3.7.1</version>
-      </plugin>
-    </plugins>
-  </build>
-<dependencies>
-    <dependency> 
-         <groupId>com.tibco.bw</groupId>
-         <artifactId>sm.baseSchemas</artifactId>
-         <version>1.0.0</version>
-    </dependency>
-    <dependency> 
-         <groupId>com.tibco.bw</groupId>
-         <artifactId>sm.cleClient</artifactId>
-         <version>1.0.0</version>
-    </dependency>
-    <dependency> 
-         <groupId>com.tibco.bw</groupId>
-         <artifactId>sm.enterpriseSchemas</artifactId>
-         <version>1.0.0</version>
-    </dependency>
-    <dependency> 
-         <groupId>com.tibco.bw</groupId>
-         <artifactId>sm.jmsEsb</artifactId>
-         <version>1.0.0</version>
-    </dependency>
-      </dependencies>
-</project>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+​
+  <activeProfiles>
+    <activeProfile>github</activeProfile>
+  </activeProfiles>
+​
+  <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+          <id>github</id>
+          <url>https://github.com/venreddyk/web-app </url>
+          <snapshots>
+            <enabled>true</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+​
+  <servers>
+    <server>
+      <id>github</id>
+      <username>venreddyk</username>
+      <password>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</password>
+    </server>
+  </servers>
+</settings>
