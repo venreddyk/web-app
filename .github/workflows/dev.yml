@@ -5,7 +5,7 @@ on:
   branches: [ dev ]
 jobs:
   build:
-    runs-on: [self-hosted,tibco,esb,bw6]
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
