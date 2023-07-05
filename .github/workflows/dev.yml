@@ -15,12 +15,6 @@ jobs:
          java-version: 11.0.16+8
          distribution: 'adopt'
        
-      - name: Running cd
-        run: |
-          cd C:\actions-runner\_work\sm.baseSchemas\sm.baseSchemas\src\sm.baseSchemas
-      - name: Running dir
-        run: |
-          dir
       - name: Running dir
         run: |
           mvn clean install -f C:\actions-runner\_work\sm.baseSchemas\sm.baseSchemas\src\sm.baseSchemas\pom.xml
