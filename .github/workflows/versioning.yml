@@ -1,0 +1,27 @@
+name: Versioning
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  versioning:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Java
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build EAR
+        run: ./build-script.sh
+
+      - name: Create versioned EAR
+        run: |
+          VERSION=$(git describe --abbrev=0 --tags)
+          mv my-app.ear "my-app-${VERSION}.ear
