@@ -3,7 +3,7 @@ name: Versioning
 on:
   push:
     tags:
-      - '*'
+      - '1.0.0'
 
 jobs:
   versioning:
