@@ -18,5 +18,9 @@ jobs:
       - name: Running dir
         run: |
           mvn clean install -f C:\actions-runner\_work\sm.baseSchemas\sm.baseSchemas\src\sm.baseSchemas\pom.xml
+      - name: Create versioned EAR
+        run: |
+          VERSION=$(git describe --abbrev=0 --tags)
+          mv my-app.ear "my-app-${VERSION}.ear
 
 #test
